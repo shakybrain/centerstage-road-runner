@@ -283,11 +283,11 @@ public class FTCWiresAutonomous extends LinearOpMode {
             telemetry.addData("Initializing FTC Wires (ftcwires.org) Autonomous adopted for Team:",
                     TEAM_NAME, " ", TEAM_NUMBER);
             telemetry.addData("---------------------------------------","");
-            telemetry.addData("Select Starting Position using XYAB on Logitech (or ▢ΔOX on Playstayion) on gamepad 1:","");
-            telemetry.addData("    Blue Left   ", "(X / ▢)");
-            telemetry.addData("    Blue Right ", "(Y / Δ)");
-            telemetry.addData("    Red Left    ", "(B / O)");
-            telemetry.addData("    Red Right  ", "(A / X)");
+            telemetry.addData("Select Starting Position using XYAB on Logitech on gamepad 1:","");
+            telemetry.addData("    Blue Left   ", "(X)");
+            telemetry.addData("    Blue Right ", "(Y)");
+            telemetry.addData("    Red Left    ", "(B)");
+            telemetry.addData("    Red Right  ", "(A)");
             if(gamepad1.x){
                 startPosition = START_POSITION.BLUE_LEFT;
                 break;
